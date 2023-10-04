@@ -8,7 +8,6 @@ VidLinkup is a simple web application that enables users to search for and view 
 - [Usage](#usage)
 - [Customization](#customization)
 - [API Key](#api-key)
-- [License](#license)
 
 ## Features
 
