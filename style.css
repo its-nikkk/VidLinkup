@@ -37,31 +37,28 @@ header {
     font-style: Bold;
 }
 
-#result-container {
-    margin: 30px auto; 
-    max-width: 800px;
+#results-container {
+    max-width: 1200px;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
 }
 
 .video-card {
-    margin: 10px 0 20px;
-    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    max-width: 600px;
 }
 
-.video-card a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s ease;
-}
-
-.video-card a:hover {
-    color: #ff0000;
+.video-card img {
+    width: 210px;
+    height: 118px;
+    margin-right: 12px;
 }
